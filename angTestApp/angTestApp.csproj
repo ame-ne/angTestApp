@@ -8,6 +8,8 @@
   <ItemGroup>
     <None Remove="src\app\app.component.ts" />
     <None Remove="src\app\app.module.ts" />
+    <None Remove="src\app\bold.directive.ts" />
+    <None Remove="src\app\child.component.ts" />
     <None Remove="src\main.ts" />
     <None Remove="src\polyfills.ts" />
   </ItemGroup>
@@ -23,6 +25,8 @@
   <ItemGroup>
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\bold.directive.ts" />
+    <TypeScriptCompile Include="src\app\child.component.ts" />
     <TypeScriptCompile Include="src\main.ts" />
     <TypeScriptCompile Include="src\polyfills.ts" />
   </ItemGroup>
